@@ -4,12 +4,19 @@ $(function() {
     $('body').one('pinegrow-ready', function(e, pinegrow) {
 
         //Create new Pinegrow framework object
-        var f = new PgFramework('SemanticUI', 'Semantic-UI');
+        var f = new PgFramework('SemanticUI2.2.4', 'Semantic-UI');
 
-        //This will prevent activating multiple versions of 960 grid framework, provided that other versions set the same type
+        //This will prevent activating multiple versions of Semantic UI framework, provided that other versions set the same type
         f.type = "SemanticUI";
         f.allow_single_type = true;
 
+        //Information & Description
+        f.info_badge = 'Updated';
+        f.description = '<a href="http://semanticui.com/">Semantic-UI</a> starting pages and components.';
+        f.author = 'Islam Sayed';
+        f.author_link = 'http://islamsayed.com';
+        
+        
         //Don't show these files in CSS tab
         f.ignore_css_files = [/(^|\/)960.*\.(css|less)/i, /(^|\/)text.*\.(css|less)/i, /(^|\/)reset.*\.(css|less)/i];
 
