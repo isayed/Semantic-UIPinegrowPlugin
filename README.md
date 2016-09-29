@@ -1,2 +1,3 @@
 # Semantic-UI Pinegrow Plugin
-Semantic-UI Framework Plugin to Pinegrow
+
+This is a plugin for Pinegrow Web Designer to support Semantic-UI framework
