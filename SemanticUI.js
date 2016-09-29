@@ -4,10 +4,10 @@ $(function() {
     $('body').one('pinegrow-ready', function(e, pinegrow) {
 
         //Create new Pinegrow framework object
-        var f = new PgFramework('960grid', '960 Grid');
+        var f = new PgFramework('SemanticUI', 'Semantic-UI');
 
         //This will prevent activating multiple versions of 960 grid framework, provided that other versions set the same type
-        f.type = "960grid";
+        f.type = "SemanticUI";
         f.allow_single_type = true;
 
         //Don't show these files in CSS tab
