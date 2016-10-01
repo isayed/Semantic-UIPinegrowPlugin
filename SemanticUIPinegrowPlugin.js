@@ -54,7 +54,7 @@ $(function() {
                             'name': 'Text align',
                             'action': 'apply_class',
                             'show_empty': true,
-                     'options': [
+                            'options': [
                                 { 'key': 'text-left', 'name': 'Left' },
                                 { 'key': 'text-right', 'name': 'Right' },
                                 { 'key': 'text-center', 'name': 'Center' },
