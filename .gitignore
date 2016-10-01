@@ -47,6 +47,7 @@ jspm_packages
 *.tgz
 
 #VScode
+examples
 .vscode
 jsconfig.json
 MaterializePinegrowPlugin.js
